@@ -1,4 +1,6 @@
 # Frontend Mentor - Product preview card component
+# Check deployment
+https://dreamy-licorice-72531b.netlify.app/
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
