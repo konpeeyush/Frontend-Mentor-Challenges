@@ -1,5 +1,6 @@
 # Frontend Mentor - QR code component
-
+# Check Deployment
+https://venerable-stroopwafel-6a7a20.netlify.app/
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
