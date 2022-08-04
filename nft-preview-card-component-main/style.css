@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 375px;
+    border-radius: 1em;
+}
+
+.imgContent {
+    position: relative;
+    border: 2px solid white;
+}
+
+#card-img {
+    max-width: 100%;
+    margin: 1em auto;
+    border-radius: 1em;
+}
+
+#card-img:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 1em 0;
+    /* border: 2px solid red; */
+
+}
+
+.cardContent h3 {
+    color: hsl(0, 0%, 100%);
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
+.cardContent h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.cardContent p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.cardContent ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+.cardContent ul li:nth-child(1) {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.cardContent ul li:nth-child(2) {
+    color: hsl(215, 51%, 70%);
+}
+
+.cardContent ul li {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.cardContent ul li img {
+    display: flex;
+    align-items: center;
+}
+
+.cardContent ul li img {
+    margin: 0 0.5em 0 0;
+}
+
+hr {
+    width: 85%;
+    margin: 1em auto;
+    color: hsl(215, 32%, 27%);
+    border-style: solid;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    /* border: 2px solid red; */
+    margin: 1em auto;
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.author img {
+    width: 15%;
+    border: 0.5px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.author span {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.author span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/* .view {
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+    height: 100%;
+} */
