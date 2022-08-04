@@ -1,5 +1,6 @@
 # Frontend Mentor - Interactive rating component
-
+# Check deployment
+https://classy-gnome-59e799.netlify.app/
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
