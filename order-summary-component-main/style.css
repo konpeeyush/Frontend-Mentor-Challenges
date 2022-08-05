@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 375px;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+.card-img img {
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1em auto;
+}
+
+.card p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    /* border: 2px solid red; */
+    background-color:hsl(225, 100%, 98%);
+    height: 4.5rem;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.plan-element {
+    display: flex;
+    align-items: center;
+}
+
+.plan-element ul {
+    margin-left: 1em;
+}
+
+.plan ul {
+    list-style: none;
+}
+
+.plan-element img{
+    margin-left: 1em;
+}
+
+.plan-element ul li:nth-child(1) {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.plan-element ul li:nth-child(2) {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan button {
+    margin-right: 1em;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 0.9rem;
+}
+.plan button:hover{
+    color: hsl(245, 75%, 52%);
+}
+.btn-payment{
+    width: 90%;
+    margin: 1em auto;
+    height: 2.5em;
+    border:none ;
+    border-radius: 10px;
+    background-color:hsl(225, 100%, 94%) ;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.btn-payment:hover{
+    transition: 0.4s;
+    color: white;
+    background-color: rgb(56, 41, 224);
+    transform: scale(1.04);
+}
+.btn-cancel{
+    border: none;
+    color:hsl(224, 23%, 55%) ;
+    background-color: #fff;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+}
+.btn-cancel:hover{
+    color: black;
+}
