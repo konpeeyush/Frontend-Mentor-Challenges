@@ -1,0 +1,12 @@
+@mixin flex{
+    display: flex;
+}
+@mixin flex-jc($value){
+    justify-content: $value;
+}
+@mixin flex-ai($value){
+    align-items: $value;
+}
+@mixin flex-dr($value){
+    flex-direction: $value;
+}

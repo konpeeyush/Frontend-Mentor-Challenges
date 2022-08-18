@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@import "./mixins" ;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: $darkCyan;
+    min-height: 100vh;
+    @include flex ;
+    @include flex-ai(center) ;
+    @include flex-jc(center) ;
+    @include flex-dr(column) ;  
+}
+.card{
+    @include flex ;
+    @include flex-ai(center) ;
+    @include flex-jc(center) ;    
+    @include flex-dr(column) ;  
+    width: 70%;
+    // height: 100%;
+    border: 2px solid steelblue;
+    #{&}__top{
+        border: 2px solid red;
+        height: 10em;
+        width: 100%;
+        @include flex ;
+        @include flex-ai(center) ;
+        @include flex-jc(center) ;    
+        @include flex-dr(column) ;  
+    }
+}
